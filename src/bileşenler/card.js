@@ -46,7 +46,6 @@ const Card = (makale) => {
   mainDiv.appendChild(div3);
 
   mainDiv.addEventListener("click", () => {
-    // console.log(document.querySelector(".headline").textContent);
     console.log(makale.anabaslik);
   });
 
